@@ -73,3 +73,5 @@ Then run the backend. FastAPI will serve the built React app from `frontend/dist
 - POST /api/worklogs
 - PUT /api/worklogs/{log_id}
 - DELETE /api/worklogs/{log_id}
+
+## Test
