@@ -40,7 +40,7 @@ def seed_database(db: Session) -> None:
 
     logs = [
         WorkLog(user_id=users["abbas@example.com"].id, date=date(2026, 1, 5), task="Fixed backend login bug", hours=3.5, status="Completed", project="Web Portal", comments="Resolved validation issue"),
-        WorkLog(user_id=users["james@example.com"].id, date=date(2026, 1, 6), task="Updated dashboard layout", hours=2.0, status="In Progress", project="Employee Work Log", comments="Improved table spacing"),
+        WorkLog(user_id=users["james@example.com"].id, date=date(2026, 1, 6), task="Updated dashboard layout", hours=2.0, status="In Progress", project="WorkTrack", comments="Improved table spacing"),
         WorkLog(user_id=users["sarah@example.com"].id, date=date(2026, 1, 7), task="Wrote test cases", hours=4.0, status="Completed", project="Testing", comments="Covered CRUD functions"),
         WorkLog(user_id=users["fatima@example.com"].id, date=date(2026, 1, 8), task="Created ERD draft", hours=1.5, status="Completed", project="Design", comments="Added users and work logs"),
         WorkLog(user_id=users["yusuf@example.com"].id, date=date(2026, 1, 9), task="Reviewed accessibility", hours=2.5, status="Pending", project="Frontend", comments="Colour contrast review needed"),

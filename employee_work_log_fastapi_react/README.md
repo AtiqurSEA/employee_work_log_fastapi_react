@@ -1,4 +1,4 @@
-# Employee Work Log Web Application
+# Employee Work Log Web Application - WorkTrack
 
 A simple web database application using a FastAPI backend and React frontend.
 
