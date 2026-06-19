@@ -172,8 +172,7 @@ function App() {
     <div>
       <header className="topbar">
         <div>
-          <h1>WorkTrack</h1>
-          <h2>Employee Work Log</h2>
+          <h1>WorkTrack | Employee Work Log System</h1>
           <p></p>
         </div>
         {user && (
